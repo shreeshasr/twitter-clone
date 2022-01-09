@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SingleTweet.scss"
 const SingleTweet = ({tweet}) => {
+    console.log(tweet.tags)
     return (
         <div className='singleTweet'>
             <img src={tweet.userImage} alt="shreesha" className="profileImage"/>
@@ -17,6 +18,13 @@ const SingleTweet = ({tweet}) => {
                     </div>
                 </div>
                 <div className="singleTweetText">{tweet.tweetText}</div>
+                <div className="singleTweetTags">
+                {
+                    tweet.tags.map( (tag) => {
+                       return <span className='hashtag'>#{tag}</span>
+                    })
+                }
+                </div>
                 {tweet.postImage  !== "" ? <img src={tweet.postImage} alt="shreesha" className="postedImage"/> : ""}
                 <div className="tweetActions">
                     <div className="singleTweetComments"><i className="far fa-comment"></i> {tweet.commentsCount.toLocaleString()}</div>

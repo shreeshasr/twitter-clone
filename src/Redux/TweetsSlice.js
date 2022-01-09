@@ -22,7 +22,7 @@ const initialState = {
             userName: "Elon Musk",
             isVerifiedUser: true,
             userId: "@elonmusk",
-            tags: "BCCI",
+            tags: ["BCCI"],
             commentsCount: 9999,
             postImage: "",
             retweetsCount: 12087,
@@ -35,7 +35,7 @@ const initialState = {
             isVerifiedUser: true,
             userName: "Ministry of Health",
             userId: "@healthministry",
-            tags: "WHO",
+            tags: ["WHO"],
             commentsCount: 345,
             postImage: coronapost,
             retweetsCount: 3412,
@@ -48,7 +48,7 @@ const initialState = {
             userName: "Virat Kohli",
             isVerifiedUser: true,
             userId: "@imVkohli",
-            tags: "BCCI",
+            tags: ["Kohli", "Cricket"],
             commentsCount: 3455,
             postImage: kohlipost,
             retweetsCount: 13488,
@@ -61,7 +61,7 @@ const initialState = {
             userName: "News desk",
             isVerifiedUser: false,
             userId: "@newslocal",
-            tags: "BCCI",
+            tags: ["News"],
             commentsCount: 12,
             postImage: "",
             retweetsCount: 3,
@@ -74,7 +74,7 @@ const initialState = {
             userName: "Groww",
             isVerifiedUser: true,
             userId: "@_groww",
-            tags: "BCCI",
+            tags: ["Stocks"],
             commentsCount: 872,
             postImage: "",
             retweetsCount: 67,
@@ -87,7 +87,7 @@ const initialState = {
             userName: "Hitesh Chaudhary",
             isVerifiedUser: true,
             userId: "@hiteshchaudhary",
-            tags: "BCCI",
+            tags: ["Programming"],
             commentsCount: 513,
             postImage: hiteshpost,
             retweetsCount: 111,
@@ -100,7 +100,7 @@ const initialState = {
             userName: "URVASHI RAUTELA 🇮🇳",
             isVerifiedUser: true,
             userId: "@UrvashiRautea",
-            tags: "BCCI",
+            tags: ["Modelling"],
             commentsCount: 7672,
             postImage: urvashipost,
             retweetsCount: 557,
@@ -113,7 +113,7 @@ const initialState = {
             userName: "Arijit Singh",
             isVerifiedUser: true,
             userId: "@arijitsingh",
-            tags: "BCCI",
+            tags:[ "Singing", "Concert"],
             commentsCount: 1112,
             postImage: arijitpost,
             retweetsCount: 557,
@@ -126,7 +126,7 @@ const initialState = {
             userName: "BookMyShow",
             isVerifiedUser: true,
             userId: "@bookmyshow",
-            tags: "BCCI",
+            tags: ["HappyBirthdayYash"],
             commentsCount: 76112,
             postImage: yash,
             retweetsCount: 210,
@@ -146,6 +146,6 @@ export const tweetsSlice = createSlice({
 
 })
 
-export const {} = tweetsSlice.actions
+// export const {} = tweetsSlice.actions
 
 export default tweetsSlice.reducer
