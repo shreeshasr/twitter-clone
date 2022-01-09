@@ -1,0 +1,38 @@
+.tweetContent{
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    max-height: 5rem;
+    width: 100%;
+    padding: 0;
+}
+.uploadOptionIcons i{
+    color: rgb(29, 155, 240);;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+}
+.tweetInputs{
+    width: 100%;
+}
+.iconsAndSubmit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    margin: 1rem 0;
+}
+.tweetButtonSmall{
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: #1c9bef;
+    color: white;
+    border: none;
+}
+
+.tweet{
+    display: flex;
+}

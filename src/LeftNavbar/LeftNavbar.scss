@@ -1,0 +1,13 @@
+.leftNavbar{
+    width: 22rem;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+    border-right: 1px solid lightgray;
+    padding: 0 3rem 0 5rem;
+    position: fixed;
+}
+
+.navbarItems{
+    text-align: end;
+}

@@ -1,0 +1,39 @@
+$primaryColor: "#d9d9d9";
+$fontSize: 1.4rem;
+$margin: 0 0 0.5rem 0;
+
+.leftNavbarItem{
+    color: $primaryColor;
+    font-size: $fontSize;
+    margin: $margin;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.6rem;
+}
+
+.leftNavbarItem i{
+    margin: 0 1rem 0 0;
+    font-size: 1.8rem;
+    width: 2rem;
+}
+
+.tweetButton{
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: #1c9bef;
+    color: white;
+    margin-top: 0.5rem;
+    border: none;
+}
+
+.fa-twitter{
+    color: #1c9bef;
+}
+
+.leftNavbarItem:hover{
+    background: rgba(51, 51, 51, 0.067);
+    border-radius: 2rem;
+    cursor: pointer;
+}

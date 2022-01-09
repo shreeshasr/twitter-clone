@@ -1,0 +1,51 @@
+.singleTweet{
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.singleTweetContent{
+    width: 100%;
+    height: 100%;
+}
+.singleTweetPersonInfoWithDate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+}
+.singleTweetPersonInfoWithDateLeft{
+    display: flex;
+    align-items: center;
+}
+.singleTweetPersonInfoWithDate div{
+    margin-right: 0.5rem;
+}
+.singleTweetUsername{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.fa-check-circle{
+    color: #1c9bef;
+    font-weight: bolder;
+    margin-right: 0.5rem;
+}
+
+.postedImage{
+    margin-top: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.tweetActions{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.tweetActions i{
+    padding: 0 0.5rem;
+}
